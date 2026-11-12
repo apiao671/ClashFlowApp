@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "releases": [
+    {
+      "id": 442393367,
+      "tag_name": "v0.1.5-alpha.4",
+      "name": "ClashFlow 0.1.5-alpha.4",
+      "body": "# ClashFlow 0.1.5 Alpha 4（原生 Mac 预览版）\n\n原生 macOS 预览版 `0.1.5-alpha.4`，构建号 179，面向 Apple Silicon，需要 macOS 13 或更新版本。\n\n- 软件更新源切换到公开 GitHub 仓库，修复旧版访问私有 Gitee 更新清单出现的 HTTP 403。\n- 在“设置 → 更新”检查版本，下载校验后可点击“安装并重启”；无需登录或配置更新令牌。\n- 正式版与预览版均按版本号接收更高版本更新，保留当前配置、流量记录及原位安装保护。\n- 下载跳转保留 GitHub CDN 签名的原始编码，避免特殊字符变化导致访问失败。\n- 技能包、本地修改管理、DNS 和订阅兼容功能继续提供。\n\n**迁移说明：** Alpha 3 及更早版本仍指向旧更新地址，请从本页下载 DMG，手动安装一次 Alpha 4。完成迁移后，后续版本可从软件内更新。\n\n附件中的 `.dmg` 用于手动安装，`.app.zip` 用于应用内更新。SHA-256 由公开更新清单提供，不需要额外下载校验附件。本包使用本地签名，尚未经过 Apple 公证。\n",
+      "draft": false,
+      "assets": [
+        {
+          "name": "ClashFlow-0.1.5-alpha.4-arm64.app.zip",
+          "sha256": "a0b9ba0d8083f630db5196f1cf375df5257b7a977cb33f2ee01a3044947f5fcc"
+        },
+        {
+          "name": "ClashFlow-0.1.5-alpha.4-arm64.dmg",
+          "sha256": "896dd3c678c9d6883944e96f99a1285a51830a1fd58f4cc61c29329b73a0d410"
+        }
+      ]
+    }
+  ]
+}
