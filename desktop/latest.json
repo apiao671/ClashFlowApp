@@ -1,0 +1,11 @@
+{
+  "version": "0.1.0-alpha.1",
+  "notes": "ClashFlow Desktop React 桌面预览版；macOS 13+、Apple Silicon arm64。独立于原生版，详见发行说明。",
+  "pub_date": "2026-11-13T08:31:42Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUWmVkRjFBV0RmREorNHJzQ0VIWmlZOXliVFZzRW56eDdPTzlFcHR2bWM0Q2dPcWFnSlVDaWlwMmxCMGpJeFh0K2J6VjlKYnhmMUwwN09TUUExRHhDOFFGTW1PVW1HdkFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTU4MTIyCWZpbGU6Q2xhc2hGbG93IERlc2t0b3AgUHJldmlldy5hcHAudGFyLmd6CXZlcnNpb246MC4xLjAtYWxwaGEuMQo2OWNRODBVV2N1ZWtRRlEwOEtxTUR1Yll4WHdUTDMrWkd3SVl6RXgvTzdUcTd0aUFuQzQvRUswbktTTzNCVHRKeTlYRE8yUUNKZFVKM0NjRTJOYVdBUT09Cg==",
+      "url": "https://github.com/apiao671/ClashFlowApp/releases/download/desktop-v0.1.0-alpha.1/ClashFlow-Desktop-0.1.0-alpha.1-macos-arm64.app.tar.gz"
+    }
+  }
+}
