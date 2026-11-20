@@ -1,11 +1,15 @@
 {
   "version": "0.1.0-alpha.3",
-  "notes": "改进大策略组、托盘和配置切换，YAML 支持文件内查找，可从活动连接编辑并预览规则。仅 macOS 13+ / Apple Silicon，详见预览发行说明。",
+  "notes": "改进大策略组、托盘和配置切换，YAML 支持文件内查找，可从活动连接编辑并预览规则。本预览版提供 macOS 13+（Apple Silicon）和 Windows x64 安装包。",
   "pub_date": "2026-11-20T06:24:28Z",
   "platforms": {
     "darwin-aarch64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUWmVkRjFBV0RmREdRYzQxanRpcW41TVdwcE9xaVRaN1g5Z2VrWStFdmZEZjF4NWJEY3FpSXRsL0FDV0tkeTFTNFNkcGZvTDNYeGw0cGltK1FhOEFpNy9vMHlpUTVjREF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTU1ODQ3CWZpbGU6Q2xhc2hGbG93IERlc2t0b3AgUHJldmlldy5hcHAudGFyLmd6CXZlcnNpb246MC4xLjAtYWxwaGEuMwpCdmN5dExIdGxQZWdQcEwveC91ejErV1pSMnJTY01mYTlWRHVFOG5mVURvQXB3S1A0bWhqRURkZW43Um1ESHYrQXNvK3IvaXhXc2NQblQxdGJoM2JBQT09Cg==",
       "url": "https://github.com/apiao671/ClashFlowApp/releases/download/desktop-v0.1.0-alpha.3/ClashFlow-Desktop-0.1.0-alpha.3-macos-arm64.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUWmVkRjFBV0RmRER3VENxYzRJZ1ZWZGo0WE1lb2p6WlhEOUhjMFNTbVZ4T0F2akZvendnY0poQUVhODhUUWNKUnRyRm5lOWhjT0VDNHk2SmNNWXRySm9BNFhuSm1PTmdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTY0NDUyCWZpbGU6Q2xhc2hGbG93LURlc2t0b3AtMC4xLjAtYWxwaGEuMy13aW5kb3dzLXg2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMC1hbHBoYS4zClFtR0ROSDJ0VlNJV2Y4TXMrc0RMQzVIYmhzMzNWdWlHbnd1U1EyNm8xVk8wYVJtVW1VaGROeFQ0THluM2NlZTI0dUVtZ0hYSnJSYTJKZWNZWDl2eENRPT0K",
+      "url": "https://github.com/apiao671/ClashFlowApp/releases/download/desktop-v0.1.0-alpha.3/ClashFlow-Desktop-0.1.0-alpha.3-windows-x64-setup.exe"
     }
   }
 }

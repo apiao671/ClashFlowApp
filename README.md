@@ -14,8 +14,9 @@
 
 ## React 桌面预览版
 
-当前版本：**0.1.0-alpha.3**，macOS 13+，Apple Silicon（arm64）。
+当前版本：**0.1.0-alpha.3**。请选择与你的系统和处理器对应的安装包：
 
-[下载 Desktop DMG](https://github.com/apiao671/ClashFlowApp/releases/download/desktop-v0.1.0-alpha.3/ClashFlow-Desktop-0.1.0-alpha.3-macos-arm64.dmg) · [发行说明与 SHA-256 校验文件](https://github.com/apiao671/ClashFlowApp/releases/tag/desktop-v0.1.0-alpha.3) · [desktop 源码（Gitee）](https://gitee.com/striveba/clash-flow/tree/desktop)
+- [Windows x64 安装包（.exe）](https://github.com/apiao671/ClashFlowApp/releases/download/desktop-v0.1.0-alpha.3/ClashFlow-Desktop-0.1.0-alpha.3-windows-x64-setup.exe) · [Windows SHA-256](https://github.com/apiao671/ClashFlowApp/releases/download/desktop-v0.1.0-alpha.3/SHA256SUMS-windows-x64.txt)。Intel / AMD 64 位电脑运行 `.exe` 安装即可。安装包未做 Windows Authenticode 签名，可能显示“未知发布者”；`.exe.sig` 供 Desktop 更新器使用。
+- [macOS 13+ / Apple Silicon（arm64）DMG](https://github.com/apiao671/ClashFlowApp/releases/download/desktop-v0.1.0-alpha.3/ClashFlow-Desktop-0.1.0-alpha.3-macos-arm64.dmg) · [macOS SHA-256](https://github.com/apiao671/ClashFlowApp/releases/download/desktop-v0.1.0-alpha.3/SHA256SUMS.txt)。将 DMG 内的 ClashFlow Desktop Preview.app 拖入 Applications；此包使用本地 ad-hoc 签名，尚未经过 Apple 公证。
 
-DMG 内将 ClashFlow Desktop Preview.app 拖入 Applications 安装。独立应用身份、数据目录与更新签名，不替换原生版；桌面更新清单位于 `desktop/latest.json`，原生版继续使用根目录 `latest.json`。此包使用本地签名，尚未经过 Apple 公证；Intel Mac、Windows、Linux 安装包暂未提供。
+[预览版发行说明](https://github.com/apiao671/ClashFlowApp/releases/tag/desktop-v0.1.0-alpha.3) · [desktop 源码（Gitee）](https://gitee.com/striveba/clash-flow/tree/desktop)。桌面预览版使用独立应用身份、数据目录和更新签名，不替换原生版；桌面更新清单为 `desktop/latest.json`，原生版继续使用根目录 `latest.json`。尚未提供 Intel Mac、Windows ARM64 原生或 Linux 安装包。
