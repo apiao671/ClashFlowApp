@@ -1,11 +1,11 @@
 {
-  "version": "0.1.0-alpha.2",
-  "notes": "ClashFlow Desktop React 预览版：统一桌面页面与交互，按需加载减少首页资源，修复设置跨分组保存；macOS 13+ / Apple Silicon arm64，详见发行说明。",
-  "pub_date": "2026-11-17T01:38:46Z",
+  "version": "0.1.0-alpha.3",
+  "notes": "改进大策略组、托盘和配置切换，YAML 支持文件内查找，可从活动连接编辑并预览规则。仅 macOS 13+ / Apple Silicon，详见预览发行说明。",
+  "pub_date": "2026-11-20T06:24:28Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUWmVkRjFBV0RmRFB5ay9UZnJSR0o3Z21DenorOU9BTms0c0Q5dGtIRHpUK3d3eTdiYW82MFZXTGorY3VGQWRXODNIS2dvNndoclhWN0FhL3ZQVXJNWDhZa1V5NnJld1FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODc5NDcyCWZpbGU6Q2xhc2hGbG93IERlc2t0b3AgUHJldmlldy5hcHAudGFyLmd6CXZlcnNpb246MC4xLjAtYWxwaGEuMgpyZjRWYkxSMEdhaEVMMTlJWVU0eE1nYnUvUVUyYnIyNjc3YmZqamdFdkVhSGlYRXpuTmlVOFRoeEZhYU80UEF3d29tcEhhS0lrd0ZzRlZINkE4NzZDZz09Cg==",
-      "url": "https://github.com/apiao671/ClashFlowApp/releases/download/desktop-v0.1.0-alpha.2/ClashFlow-Desktop-0.1.0-alpha.2-macos-arm64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUWmVkRjFBV0RmREdRYzQxanRpcW41TVdwcE9xaVRaN1g5Z2VrWStFdmZEZjF4NWJEY3FpSXRsL0FDV0tkeTFTNFNkcGZvTDNYeGw0cGltK1FhOEFpNy9vMHlpUTVjREF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTU1ODQ3CWZpbGU6Q2xhc2hGbG93IERlc2t0b3AgUHJldmlldy5hcHAudGFyLmd6CXZlcnNpb246MC4xLjAtYWxwaGEuMwpCdmN5dExIdGxQZWdQcEwveC91ejErV1pSMnJTY01mYTlWRHVFOG5mVURvQXB3S1A0bWhqRURkZW43Um1ESHYrQXNvK3IvaXhXc2NQblQxdGJoM2JBQT09Cg==",
+      "url": "https://github.com/apiao671/ClashFlowApp/releases/download/desktop-v0.1.0-alpha.3/ClashFlow-Desktop-0.1.0-alpha.3-macos-arm64.app.tar.gz"
     }
   }
 }
