@@ -2,6 +2,23 @@
   "schema_version": 1,
   "releases": [
     {
+      "id": 457631507,
+      "tag_name": "v0.1.5-alpha.7",
+      "name": "ClashFlow 0.1.5-alpha.7",
+      "body": "# ClashFlow 0.1.5 Alpha 7（原生 Mac 预览版）\n\n构建号 182，面向 Apple Silicon，需要 macOS 13 或更新版本。\n\n- **检查更新**：如果无法连接 GitHub 的主清单地址，ClashFlow 会从同一仓库的备用入口重试一次，无需登录。若仍失败，提示会说明是更新清单还是安装包连不上，而不只显示“错误的 URL”。安装包仍须通过 SHA-256 校验。\n- **系统代理服务**：修复重新配置权限时，旧服务尚未退出就注册新服务导致的“本机服务未响应”。如有需要，可在“设置 → 代理”点击“配置系统权限”，无需强制释放端口或关闭其他软件的代理。\n\nAlpha 4 至 Alpha 6 可在“设置 → 更新”升级。如果旧版检查更新仍报错，点击“查看发行版”，手动下载本页的 `.dmg` 即可。`.app.zip` 用于应用内更新。此包使用本地签名，未经 Apple 公证；未提供 Intel 安装包。\n",
+      "draft": false,
+      "assets": [
+        {
+          "name": "ClashFlow-0.1.5-alpha.7-arm64.app.zip",
+          "sha256": "4242c2740eeff51200e7ffed2206ac5f0b36d8077ad482103df50a76b3fe5191"
+        },
+        {
+          "name": "ClashFlow-0.1.5-alpha.7-arm64.dmg",
+          "sha256": "574aebd9aad3315cef5549be3230be815ece29d0ed8f5d2387240f8c4e2de939"
+        }
+      ]
+    },
+    {
       "id": 457595751,
       "tag_name": "v0.1.5-alpha.6",
       "name": "ClashFlow 0.1.5-alpha.6",
