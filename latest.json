@@ -2,6 +2,23 @@
   "schema_version": 1,
   "releases": [
     {
+      "id": 457512026,
+      "tag_name": "v0.1.5-alpha.5",
+      "name": "ClashFlow 0.1.5-alpha.5",
+      "body": "# ClashFlow 0.1.5 Alpha 5（原生 Mac 预览版）\n\n原生 macOS 预览版 `0.1.5-alpha.5`，构建号 180，面向 Apple Silicon，需要 macOS 13 或更新版本。\n\n- 「设置 → 高级 → 端口」补充 macOS 原生套接字查询，帮助识别占用混合端口或控制器端口的第三方进程，覆盖 IPv4/IPv6 TCP 监听和 UDP 本地绑定。\n- 端口被占用时会显示“强制释放端口”。核对进程名称和 PID 后再确认；应用在执行前重新检查占用者，无法确认身份、权限不足或内核未停止时不执行释放。强制释放会结束所列进程，可能丢失其未保存的数据。\n\nAlpha 4 可在「设置 → 更新」下载安装。Alpha 3 及更早版本请下载安装 DMG。`.app.zip` 用于应用内更新。旧发行附件保留。本包使用本地签名，尚未经过 Apple 公证。\n",
+      "draft": false,
+      "assets": [
+        {
+          "name": "ClashFlow-0.1.5-alpha.5-arm64.app.zip",
+          "sha256": "8adb8d06cfc4cc8bba8ebe7551a6f083ffd29d7daa5cc6ea4f0f4682411c3735"
+        },
+        {
+          "name": "ClashFlow-0.1.5-alpha.5-arm64.dmg",
+          "sha256": "0fe734b5281d2d12de862370175460cc20227a27535f9e162df15fb6eb1e5152"
+        }
+      ]
+    },
+    {
       "id": 442393367,
       "tag_name": "v0.1.5-alpha.4",
       "name": "ClashFlow 0.1.5-alpha.4",
